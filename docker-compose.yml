@@ -1,0 +1,7 @@
+services:
+  web:
+    container_name: web_weather_sh
+    image: web-sh
+    ports:
+      - "8000:80"
+    command: httpd-foreground
